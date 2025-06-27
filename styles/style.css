@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    /* font-family: "Quicksand"; sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    /* padding: 0 10vw;
+    background: black; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 5vw;
+    background-color: rgb(0, 16, 37);
+    height: 8vh;
+    align-items: center;
+    border-bottom: 1px solid pink;
+}
+.nav-links{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: rgb(0, 255, 221);;
+    
+}
+
+li{
+    list-style-type: none;
+}
+.logo{
+    color: rgb(114, 250, 216);
+    font-weight: 30;
+}
+
+.intro{
+    background-color: rgb(0, 16, 37);
+    height: 70vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10vw;
+}
+
+.intro-text{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 60vw;
+    /* font-weight: 350; */
+    
+}
+h1{
+    font-size: 60px;
+    /* font-weight: 200; */
+}
+
+/* #hello{
+    color: white;
+} */
+
+#my-name{
+    color: white;
+    font-variant-caps: all-small-caps;
+    font-weight: 400;
+    
+    /* color: rgb(0, 255, 221); */
+    
+}
+
+.my-heading{
+    color: rgb(154, 39, 160);
+    font-weight: 400;
+    font-variant: all-small-caps;
+    font-size: 18px;
+}
+
+.my-bio{
+    color: teal;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.buttons{
+    height: 10vh;
+    background-color: rgb(0, 16, 37);
+    /* border: 1px solid white; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-shape{
+    height:35px;
+    padding: 0 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin: 10px;
+    
+}
+
+.btn-opaque{
+    background-color: purple;
+    color: white;
+
+}
+
+.btn-hollow{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.btn-opaque:hover{
+    background-color: orange;
+    color: white;
+    
+}
+.btn-hollow:hover{
+    color: aqua;
+    background-color: black;
+    border-color: white;
+}
+
+.my-img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: rgb(1, 108, 108);
+    border: 3px solid white;
+}
+
+
+/* ----ABOUT PAGE---- */
+
+
+/* ----PROJECTS PAGE---- */
+/* ----CONTACT PAGE---- */
