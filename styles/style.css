@@ -31,6 +31,7 @@ nav{
 .nav-link{
     text-decoration: none;
     color: white;
+    padding: 10px;
     
 }
 
@@ -43,6 +44,7 @@ nav{
 li{
     list-style-type: none;
 }
+
 .logo{
     color: rgb(114, 250, 216);
     font-weight: 30;
@@ -68,16 +70,13 @@ li{
     /* font-weight: 350; */
     
 }
-h1{
-    font-size: 60px;
-    /* font-weight: 200; */
-}
 
 /* #hello{
     color: white;
 } */
 
 #my-name{
+    font-size: 60px;
     color: white;
     font-variant-caps: all-small-caps;
     font-weight: 400;
@@ -141,18 +140,252 @@ h1{
     border-color: white;
 }
 
-.my-img{
+
+
+
+/* ----ABOUT PAGE---- */
+
+#about-main{
+    background-color: rgb(0, 16, 37);
+    color: white;
+    padding: 5vw;
+    
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+    /* border: 2px solid white; */
+}
+
+#about-title{
+    color: rgb(154, 39, 160);
+    font-size: 40px;
+    /* font-variant-caps: all-small-caps; */
+    font-weight: 400;
+}
+
+#about-container{
+    display:flex;
+    /* justify-content: space-evenly; */
+}
+
+#about-main h2{
+    color: rgb(114, 250, 216);
+    margin: 10px;
+}
+
+#about-main h3{
+    margin: 10px;
+}
+
+.prof-section{
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px 20px ;
+    width: 40vw;
+}
+
+#my-img{
     width:200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     background-color: rgb(1, 108, 108);
     border: 3px solid white;
+    margin: 40px 10px;
+    display: flex;
+    justify-self: center;
+}
+
+.prof-section p{
+    padding: 10px;
+}
+
+.skills-list{
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px 10px;
+}
+
+.skills-list button{
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.about-tags{
+    margin: 0 15px;
+}
+
+.skill-tag{
+    border: 2px solid white;
+    background-color: rgb(11, 133, 133, 0);
+    color: white;
+}
+
+.skill-tag:hover{
+    background-color: teal;
+}
+
+.education{
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px 10px;
+}
+
+#btn-resume{
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 0 15px;
+}
+
+#btn-resume:hover{
+   background-color: orange;
+}
+
+.education p{
+    margin: 15px;
+    
 }
 
 
-/* ----ABOUT PAGE---- */
-
-
 /* ----PROJECTS PAGE---- */
+#projects-main{
+    background-color: rgb(0, 16, 37);
+    color: white;
+    padding: 5vw;
+}
+
+#projects-title{
+    color: rgb(154, 39, 160);
+    font-size: 40px;
+    /* font-variant-caps: all-small-caps; */
+    font-weight: 400;
+}
+
+.project{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 25px 15px;
+    display: flex;
+}
+
+.project:hover{
+    transform: scale(1.02);
+    /* How to make float up or shadow */
+}
+
+.proj-text{
+    margin: 15px;
+}
+
+.project h3{
+    padding: 10px 0;
+
+}
+.project h3:hover{
+    color: aqua;
+}
+
+.project button{
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.proj-tag{
+    border: 2px solid white;
+    background-color: rgb(11, 133, 133, 0);
+    color: white;
+}
+
+.proj-tag:hover{
+    background-color: teal;
+}
+
+.btn-code:hover{
+    background-color: purple;
+    color: white;
+}
+
+
+
+
 /* ----CONTACT PAGE---- */
+#contact-main{
+    background-color: rgb(0, 16, 37);
+    color: white;
+    padding: 5vw;
+}
+
+#contact-title{
+    color: rgb(154, 39, 160);
+    font-size: 40px;
+    /* font-variant-caps: all-small-caps; */
+    font-weight: 400;
+}
+
+#contact-form{
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-info{
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+#contact-info h3{
+    margin: 15px;
+}
+#contact-info h4{
+    margin: 10px;
+}
+
+.icon-myinfo{
+    margin: 10px;
+}
+
+.social{
+    margin: 10px;
+}
+
+#write-section{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: teal;
+    padding: 10px;
+    margin: 15px;
+    width: 30vw;
+    
+}
+
+.textbox{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width:80%;
+
+}
+
+#form-message{
+    /* display: flex;
+    justify-self:; */
+}
+
+#contact-submit{
+    display: block;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 15px;
+}
