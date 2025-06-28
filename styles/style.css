@@ -7,6 +7,17 @@
 
 }
 
+
+
+@media screen and (max-width: 700px) {
+  .nav-link{
+    display: none;
+    /* float: none;
+    width: 100%; */
+    
+  }
+}
+
 header{
     /* padding: 0 10vw;
     background: black; */
@@ -50,9 +61,25 @@ li{
     font-weight: 30;
 }
 
-.intro{
+footer {
+    height:10vh;
     background-color: rgb(0, 16, 37);
-    height: 70vh;
+}
+
+/* -----seperate----- */
+
+.intro{
+    
+    background: 
+        radial-gradient(circle closest-corner at 25% 60%,
+        rgba(33, 165, 134, 0.5), rgb(0, 16, 37), transparent),
+        radial-gradient(circle closest-corner at 40% 2%,
+        #0d4b42,rgb(0, 16, 37) 40%, transparent),
+        radial-gradient(circle closest-corner at 75% 45%,
+        #400d4b,rgb(0, 16, 37) 60%, transparent);
+    background-color: rgb(0, 16, 37);
+      
+    height: 80vh;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
@@ -66,7 +93,7 @@ li{
     /* justify-content: space-evenly; */
     align-items: center;
     /* border: 1px solid white; */
-    width: 60vw;
+    /* width: 60vw; */
     /* font-weight: 350; */
     
 }
@@ -92,11 +119,6 @@ li{
     font-size: 18px;
 }
 
-.my-bio{
-    color: teal;
-    font-size: 15px;
-    font-weight: 300;
-}
 
 .buttons{
     height: 10vh;
@@ -141,6 +163,20 @@ li{
 }
 
 
+#home-main{
+    background-color: rgb(0, 16, 37);
+}
+
+#bio-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 16, 37);
+}
+.my-bio{
+    color: purple;
+    font-size: 15px;
+    font-weight: 300;
+}
 
 
 /* ----ABOUT PAGE---- */
@@ -206,7 +242,7 @@ li{
 }
 
 .skills-list{
-    border: 2px solid teal;
+    border: 2px solid rgb(124, 249, 249, 0.3);
     border-radius: 15px;
     margin: 10px;
     padding: 15px 10px;
@@ -223,17 +259,17 @@ li{
 }
 
 .skill-tag{
-    border: 2px solid white;
-    background-color: rgb(11, 133, 133, 0);
-    color: white;
+    border: 1px solid rgb(105, 159, 159);
+    background-color: rgba(18, 234, 234, 0);
+    color: rgb(105, 159, 159);
 }
 
 .skill-tag:hover{
-    background-color: teal;
+    color: aqua;
 }
 
 .education{
-    border: 2px solid teal;
+    border: 2px solid rgb(124, 249, 249, 0.3);
     border-radius: 15px;
     margin: 10px;
     padding: 15px 10px;
@@ -272,7 +308,8 @@ li{
 }
 
 .project{
-    border: 2px solid white;
+    /* border: 2px solid rgb(243, 240, 240, 0.2); */
+    background: rgb(22, 22, 132, 0.2);
     border-radius: 15px;
     margin: 25px 15px;
     display: flex;
@@ -280,7 +317,19 @@ li{
 
 .project:hover{
     transform: scale(1.02);
+    border: 2px solid rgb(243, 240, 240, 0.2);
+    background: rgb(22, 22, 132, 0.3);
+
     /* How to make float up or shadow */
+}
+
+.loading-img{
+    display: flex;
+    align-self: center;
+    margin: 0 15px;
+    height: 25vh;
+    border-radius: 15px;
+
 }
 
 .proj-text{
@@ -290,9 +339,9 @@ li{
 .project h3{
     padding: 10px 0;
 
-}
+/* }
 .project h3:hover{
-    color: aqua;
+    color: aqua; */
 }
 
 .project button{
@@ -309,6 +358,10 @@ li{
 
 .proj-tag:hover{
     background-color: teal;
+}
+
+.btn-code{
+    background-color: rgb(0, 219, 182);
 }
 
 .btn-code:hover{
@@ -334,15 +387,18 @@ li{
 }
 
 #contact-form{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    background-color: rgb(0, 0, 235, 0.2);
     border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
+    width: 80%;
+    justify-self: center;
 }
 
 #contact-info{
     /* border: 2px solid blue; */
-    margin: 10px;
+    margin: 4% 10px;
 }
 #contact-info h3{
     margin: 15px;
@@ -366,13 +422,14 @@ li{
 }
 
 .social{
+    color: teal;
     margin: 10px;
 }
 
 #write-section{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 15px;
-    background-color: teal;
+    background-color: rgb(0, 13, 47);
     padding: 10px;
     margin: 15px;
     width: 30vw;
@@ -395,8 +452,13 @@ li{
 }
 
 #contact-submit{
+    color: white;
+    background-color: rgb(0, 177, 166);
     display: block;
     border-radius: 15px;
     padding: 5px 15px;
     margin: 15px;
+}
+#contact-submit:hover{
+    background-color: aqua;
 }
