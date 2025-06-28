@@ -182,10 +182,11 @@ li{
 }
 
 .prof-section{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 10px;
     padding: 10px 20px ;
     width: 40vw;
+    background-image: linear-gradient(rgb(0, 103, 103), rgb(0, 41, 41));
 }
 
 #my-img{
@@ -195,7 +196,7 @@ li{
     border-radius: 50%;
     background-color: rgb(1, 108, 108);
     border: 3px solid white;
-    margin: 40px 10px;
+    margin: 50px 10px 30px 10px;
     display: flex;
     justify-self: center;
 }
@@ -205,7 +206,7 @@ li{
 }
 
 .skills-list{
-    border: 2px solid blue;
+    border: 2px solid teal;
     border-radius: 15px;
     margin: 10px;
     padding: 15px 10px;
@@ -232,7 +233,7 @@ li{
 }
 
 .education{
-    border: 2px solid blue;
+    border: 2px solid teal;
     border-radius: 15px;
     margin: 10px;
     padding: 15px 10px;
@@ -351,7 +352,17 @@ li{
 }
 
 .icon-myinfo{
-    margin: 10px;
+    margin: 15px;
+}
+
+.icon-myinfo i {
+    margin: 15px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    scale: 1.2;
 }
 
 .social{
