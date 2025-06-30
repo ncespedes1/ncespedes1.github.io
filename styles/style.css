@@ -285,9 +285,9 @@ footer div{
 }
 
 .skill-tag{
-    border: 1px solid rgb(105, 159, 159);
+    border: 1px solid rgb(163, 168, 168);
     background-color: rgba(18, 234, 234, 0);
-    color: rgb(105, 159, 159);
+    color: rgb(163, 168, 168);
 }
 
 .skill-tag:hover{
