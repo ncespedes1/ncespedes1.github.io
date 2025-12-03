@@ -23,12 +23,12 @@
 };
     
 
-
+/* 
 header{
-    /* padding: 0 10vw;
-    background: black; */
+    padding: 0 10vw;
+    background: black;
+} */
 
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -478,10 +478,11 @@ footer div{
 
 }
 
+/* 
 #form-message{
-    /* display: flex;
-    justify-self:; */
-}
+    display: flex;
+    justify-self: center;
+} */
 
 #contact-submit{
     color: white;
