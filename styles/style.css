@@ -398,6 +398,7 @@ footer div{
 .btn-code:hover{
     background-color: purple;
     color: white;
+    cursor: pointer;
 }
 
 
